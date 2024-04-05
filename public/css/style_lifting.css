@@ -1,0 +1,66 @@
+#main {
+    width: 1240px;
+    height: 760px;
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+}
+
+#frameTitle {
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    height: 76px;
+}
+
+#frameTitle label {
+    margin-left: 20px;
+    font-size: 30px;    
+}
+
+#frameBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: gray; */
+    height: 684px;
+}
+
+#frameBody input {
+    height: 120px;
+    text-align: center;
+    font-size: 75px;
+}
+
+#frameBodyPart {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 3fr 4fr 2fr 4fr 2fr;
+    text-align: center;
+    /* align-items: center; */
+    /* background-color: cyan; */
+    margin: 6px;
+    height: 684px;
+}
+/* 
+#frameBodyPart:nth-child(1) {
+    
+} */
+
+.frameBodyInput {
+    width: 280px;
+    height: 110px;
+}
+
+.frameHeaderButton {
+    width: 100px;
+    height: 100px;
+}
+
+.frameBodyButton {
+    width: 120px;
+    height: 120px;
+}
+
+button {
+    background-color: white;
+    border: none;
+} 
